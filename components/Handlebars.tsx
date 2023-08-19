@@ -31,7 +31,7 @@ const HandlebarLink: React.VFC<HandlebarLinkProps> = ({ icon, link }) => (
 const Handlebars: React.VFC<HandlebarsProps> = ({ email }) => {
   return (
     <div className="hidden sm:block">
-      <div className="fixed right-0 grid w-[6rem] h-screen my-auto place-items-center">
+      <div className="fixed right-0 grid w-[8rem] h-screen my-auto place-items-center">
         <div className="font-thin rotate-90">
           <Link href={`mailto:${email}`}>
             <a className="font-thin tracking-wide">{email}</a>
@@ -42,13 +42,9 @@ const Handlebars: React.VFC<HandlebarsProps> = ({ email }) => {
         <ul>
           <HandlebarLink
             icon={faGithubAlt}
-            link="https://github.com/ridafkih"
+            link="https://github.com/lozanocampillod"
           />
-          <HandlebarLink
-            icon={faInstagram}
-            link="https://instagram.com/ridafkih"
-          />
-          <HandlebarLink icon={faTwitter} link="https://twitter.com/ridafkih" />
+          <HandlebarLink icon={faTwitter} link="https://twitter.com/lozanocampillod" />
         </ul>
       </div>
     </div>

@@ -20,13 +20,15 @@ const handler = async (request: NextApiRequest, response: NextApiResponse) => {
 
   if (me?.body.id !== process.env.SPOTIFY_USER_ID)
     return response.redirect("/");
-  else
-    await databaseClient.from("spotify-keys").insert({
-      refresh_token,
-      access_token,
-      code,
-      expires_in,
-    });
+  else {
+    const { data, error } = await databaseClient.from("spotify-keys").insert([{
+      "refresh_token": refresh_token,
+      "access_token": access_token,
+      "code": code,
+      "expires_in": expires_in,
+    }]);
+    console.log(error)
+  }
 
   response.redirect("/");
 };

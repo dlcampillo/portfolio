@@ -25,11 +25,11 @@ const BlogPage: NextPage<BlogPageProps> = ({ blogs }) => {
   return (
     <>
       <MetaData
-        title="Rida F'kih — Blog"
+        title="David Lozano — Blog"
         currentUrl={getCurrentUrl(router.asPath)}
       />
       <WidthLimiter>
-        <Handlebars email="hello@rida.dev" />
+        <Handlebars email="lozanocampillod@gmail.com" />
         <Header />
         <PageContainer>
           <div className="space-y-4">

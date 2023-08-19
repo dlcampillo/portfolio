@@ -39,10 +39,9 @@ const HomePage: NextPage<HomeProps> = ({ gitHubData, blogData }) => {
       <Cursor />
       <MetaData currentUrl={getCurrentUrl(router.asPath)} />
       <WidthLimiter>
-        <Handlebars email="hello@rida.dev" />
+        <Handlebars email="lozanocampillo@gmail.com" />
         <Header />
         <PageContainer>
-          <MapSection />
           <IntroSection />
           <AboutMyselfSection />
           <TechnologiesSection />
@@ -50,7 +49,7 @@ const HomePage: NextPage<HomeProps> = ({ gitHubData, blogData }) => {
           <ProjectsSection gitHubData={gitHubData} />
           <BigProjectsSection />
           <BlogPreviewSection blogs={blogData.slice(0, 3)} />
-          <ContactMeSection email="hello@rida.dev" />
+          <ContactMeSection email="lozanocampillod@gmail.com" />
         </PageContainer>
       </WidthLimiter>
     </>

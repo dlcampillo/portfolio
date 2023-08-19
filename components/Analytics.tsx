@@ -8,7 +8,7 @@ const Analytics: React.VFC = () => {
         src="https://www.googletagmanager.com/gtag/js?id=G-P93BX55QZ1"
         strategy="afterInteractive"
       />
-      <Script defer data-domain="rida.dev" src="https://plausible.io/js/script.js" />
+      <Script defer data-domain="davidlozano.xyz" src="https://plausible.io/js/script.js" />
       <Script id="google-analytics" strategy="afterInteractive">
         {`
 					window.dataLayer = window.dataLayer || [];

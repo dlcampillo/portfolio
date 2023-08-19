@@ -58,7 +58,7 @@ const HomePage: NextPage<HomeProps> = ({ gitHubData, blogData }) => {
 
 export async function getStaticProps() {
   const [gitHubData, blogData] = await Promise.all([
-    getProjectsFromGitHub("ridafkih"),
+    getProjectsFromGitHub("dlcampillo"),
     getBlogList(),
   ]);
 

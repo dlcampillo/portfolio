@@ -10,8 +10,8 @@ interface MetaDataProps {
 }
 
 const MetaData: React.VFC<MetaDataProps> = ({
-  title = "Rida F'kih — Developer & Designer",
-  description = "I am a Canadian software developer in Calgary, Alta., Canada.",
+  title = "David Lozano",
+  description = "I am a Spanish software developer in Madrid",
   bannerUrl = getCurrentUrl("/meta-preview.png"),
   currentUrl,
 }) => {

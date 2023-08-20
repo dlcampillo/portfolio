@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faGithubAlt,
   faInstagram,
+  faLinkedin,
   faTwitter,
   IconDefinition,
 } from "@fortawesome/free-brands-svg-icons";
@@ -43,6 +44,10 @@ const Handlebars: React.VFC<HandlebarsProps> = ({ email }) => {
           <HandlebarLink
             icon={faGithubAlt}
             link="https://github.com/lozanocampillod"
+          />
+          <HandlebarLink
+            icon={faLinkedin}
+            link="https://www.linkedin.com/in/david-lozano-campillo/"
           />
           <HandlebarLink icon={faTwitter} link="https://twitter.com/lozanocampillod" />
         </ul>

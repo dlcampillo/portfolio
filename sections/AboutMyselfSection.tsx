@@ -7,11 +7,11 @@ import Section from "@/atoms/Section";
 const AboutMyselfSection = () => (
   <Section title="About Myself 🤘">
     <Paragraph weight="light">
-      <strong className="font-semibold">I like to make things</strong>. When
-      presented with a challenge I do and learn what it takes to build the
-      solution. I like quick iterations and prototype-driven work. I am
-      motivated by interesting projects, and I would rather get things done than
-      shave a yak. I obsess over the developer experience.
+      <strong className="font-semibold">I'm a curious mind 🤓</strong>
+      with a passion for numbers and coding 💾. Armed with a mathematics background 📐, 
+      I've been on a coding journey for life. When I'm not crafting code, I'm lost in 
+      the world of Ancient Greece 🇬🇷 and reading the classics. Join me as I explore the 
+      crossroads of geometry, creativity, and history! 🌐🏛️
     </Paragraph>
   </Section>
 );

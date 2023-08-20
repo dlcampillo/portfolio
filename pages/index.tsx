@@ -46,8 +46,10 @@ const HomePage: NextPage<HomeProps> = ({ gitHubData, blogData }) => {
           <AboutMyselfSection />
           <TechnologiesSection />
           <MyOpportunitiesSection />
+          { /*
           <ProjectsSection gitHubData={gitHubData} />
           <BigProjectsSection />
+          */ }
           <BlogPreviewSection blogs={blogData.slice(0, 3)} />
           <ContactMeSection email="lozanocampillod@gmail.com" />
         </PageContainer>

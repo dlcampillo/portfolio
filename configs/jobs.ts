@@ -1,40 +1,18 @@
 const jobs = [
   {
-    companyName: "MaxRewards",
+    companyName: "Fever",
     jobDescription:
-      "Reverse-engineering client & network fingerprinting to build out bank connectors.",
-    jobStart: new Date(2021, 11),
-    jobTitle: "Senior Financial API Developer 💰",
+      "Backend engineer in the Engineering Excelence Scolarship program",
+    jobStart: new Date(2023, 6),
+    jobTitle: "Backend Engineer 🧑‍💻",
   },
   {
-    companyName: "Jumbleberry",
+    companyName: "Banco Santander",
     jobDescription:
-      "Building the user-interfaces, & fullstack features of their advertising platform.",
-    jobStart: new Date(2021, 6),
-    jobEnd: new Date(2021, 11),
-    jobTitle: "Intermediate Frontend Developer 🌐",
-  },
-  {
-    companyName: "Cion Studio",
-    jobDescription:
-      "Developing pixel-perfect user interfaces, and architecting fullstack systems.",
-    jobStart: new Date(2021, 5),
-    jobEnd: new Date(2022, 1),
-    jobTitle: "Fullstack Software Developer 👨‍💻",
-  },
-  {
-    companyName: "Code Ninjas",
-    jobDescription: "Teaching & inspiring the next generation of coders.",
-    jobStart: new Date(2020, 7),
-    jobEnd: new Date(2021, 6),
-    jobTitle: "Lead Coding Instructor 🧑‍🏫",
-  },
-  {
-    companyName: "Calgary Public Library",
-    jobDescription: "Developing curriculum & teaching prospective developers.",
-    jobStart: new Date(2019, 10),
-    jobEnd: new Date(2020, 0),
-    jobTitle: "Volunteer Coding Instructor ✋",
+      "Migrated the whole ecosystem of customer business intelligence to PySpark",
+    jobStart: new Date(2022, 6),
+    jobEnd: new Date(2022, 9),
+    jobTitle: "Data Scientist Intern 👨‍💻",
   },
 ];
 

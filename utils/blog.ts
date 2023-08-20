@@ -54,8 +54,6 @@ export const getBlogList = async (): Promise<BlogPost[]> => {
     const now = new Date();
     const releaseDate = new Date(properties["Release Date"].date?.start || 0);
 
-    console.log(properties)
-
     if (properties.Status.status?.name !== "Complete") continue;
     if (releaseDate >= now) continue;
 

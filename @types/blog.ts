@@ -25,7 +25,7 @@ export interface BlogPostProperties {
   Status: {
     id: string;
     type: "select";
-    select?: {
+    status?: {
       id: string;
       name: "Draft" | "Complete";
       color: string;

@@ -27,7 +27,7 @@ export const useKonami = () => {
 
       setKonamiProgress((previousProgress) => {
         if (event.code === KONAMI_CODE[previousProgress])
-        return previousProgress + 1;
+          return previousProgress + 1;
         return 0;
       });
     };
